@@ -1,0 +1,112 @@
+/* 
+
+The one style sheet for Quotations 2
+
+Authors: Rick Mercer and Sooyoung Moon
+
+*/
+
+body {
+  padding: 0;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: -webkit-center;
+  font-size: xxx-large;
+  margin: 4% 0 0 0;
+}
+
+.container-wrapper {
+  text-align: -webkit-center;
+}
+
+.container {
+  width: 60%;
+  text-align: -webkit-center;
+  border: 2px black solid;
+  border-radius: 7px;
+  padding: 20px 20px 40px 20px;
+  margin: 2%;
+  font-size: xx-large;
+}
+.quote {
+  padding: 10px;
+  font-style: oblique;
+}
+.author {
+  padding: 10px;
+  margin: 0;
+  font-style: oblique;
+  font-size: x-large;
+}
+
+.container form {
+  display: contents;
+  font-size: initial;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(4, 4, 6, 0.646);
+  display: block;
+  float: right;
+}
+
+button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 7px;
+  border-color: none;
+  box-shadow: 2px 2px 4px #a6a6a6, -2px -2px 4px #fff;
+  color: rgba(4, 4, 6, 0.646);
+}
+
+#rating {
+  font-size: small;
+}
+
+#navi {
+  float: right;
+  padding-right: 3%;
+  width: 50%;
+}
+
+#navi form {
+  display: contents;
+  font-size: initial;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(4, 4, 6, 0.646);
+  display: block;
+  float: right;
+  margin: 2px;
+}
+
+#navi button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 7px;
+  color: rgba(4, 4, 6, 0.646);
+  border: solid;
+  border-width: 1px;
+}
+
+#welcome-text {
+  padding-left: 3%;
+  font-size: large;
+  font-weight: bold;
+}
+
+.loginContainer {
+  float: left;
+}
+
+.registerContainer {
+  float: left;
+}
+
+input {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+textarea {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
